@@ -1,0 +1,91 @@
+h1{
+  text-align: center;
+  margin-bottom: 70px;
+  color: rgb(255, 254, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ body{
+   color: #000000;margin: 0;
+   font-size: 1rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ 
+ .conteudo{
+ 
+   margin: 0 auto;
+   width: 100%;
+   max-width: 700px;
+   padding: 55px;
+   border-radius: 26px;
+   font-family: 'Spartan', sem serifa;
+   background:#414040;
+
+ }
+ 
+ .topo{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 40px;
+   
+ }
+ 
+ .topo input{
+   width: 350px;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding:15px;
+   border-radius: 12px;
+   border: 1px solid #191818;
+   outline: none;
+   font-size: 1.2rem;
+   color: #000000;
+ }
+ 
+ button {
+   padding: 1.3em 3em;
+   font-size: 12px;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   font-weight: 500;
+   color: #000;
+   background-color: #fff;
+   border: none;
+   border-radius: 45px;
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   outline: none;
+  }
+  
+  button:hover {
+   background-color: #000000;
+   box-shadow: 0px 15px 20px #e61ebb;
+   color: #fff;
+   transform: translateY(-7px);
+  }
+  
+  button:active {
+   transform: translateY(-1px);
+  }
+ 
+  #listatarefas{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+ 
+  #listaTarefas li {
+    padding: 8px;
+    background-color: #ffffff;
+    color:#000000;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
