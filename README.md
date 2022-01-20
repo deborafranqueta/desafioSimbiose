@@ -1,21 +1,35 @@
-# Desafio Simbiose
+# Desafio Simbiose #
  
 
  <p aling="center">Esse projeto foi criado durante o meu inicio de jornada na Simbiose.</p>
 
  <p aling="center">
  <a href=#Sobre>
- <a href=#Pré-requisitos>
+ <a href =#Sprints>
+ <a href=#Instalação>
  <a href=#Tecnologias>
  <a href=#Autor(a)>
  </p>
 
-## 📄 Sobre
+----
 
-<p> A proposta foi desenvolver um CRUD, ou seja um programa co relacionado a uma API.</p>
+## :page_facing_up:  Sobre o projeto
+
+<p> A proposta foi desenvolver um CRUD, ou seja um programa que consumisse uma API.</p>
 
 
-##  💻 Pré-requisitos
+----
+
+## :lápis2: Sprint
+
+- [x] Desenvolver o Html
+- [] Dsenvolver o CSS do programa
+- [] JavaScript
+- [] Consumir API
+
+----
+
+##  💻 Instalação
 
 <p> Antes de começar, você vai precisar realizar o passo a passo abaixo: 
 
@@ -30,10 +44,11 @@ $ cd desafioSimbiose
 $ Aproveite bastante :D
 
 ```
-
 </p>
 
-## 🔧 Tecnologias
+---
+
+## :construção: Tecnologias
 
 <p> As  tecnologias aplicadas durante esse desafio foram:
 
@@ -41,8 +56,12 @@ $ Aproveite bastante :D
 **[JavaScript](https://https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**
 </p>
 
-##  👥 Autora
 
-<p> Débora Franquêta</p>
+--- 
 
-* <a href="https://github.com/deborafranqueta" target="_blank">Débora Franquêta </a>
+##  :mulher: :coração verde: Autora
+
+<p> Débora Franquêta</p> 
+<p>debora_franqueta@hotmail.com</p>
+
+[@deborafranqueta](https://github.com/deborafranqueta)
