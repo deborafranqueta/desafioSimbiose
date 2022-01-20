@@ -3,24 +3,16 @@
 
  <p aling="center">Esse projeto foi criado durante o meu inicio de jornada na Simbiose.</p>
 
- <p aling="center">
- <a href=#Sobre>
- <a href =#Sprints>
- <a href=#Instalação>
- <a href=#Tecnologias>
- <a href=#Autor(a)>
- </p>
-
 ----
 
-## :page_facing_up:  Sobre o projeto
+# Sobre o projeto
 
 <p> A proposta foi desenvolver um CRUD, ou seja um programa que consumisse uma API.</p>
 
 
 ----
 
-## :lápis2: Sprint
+# Sprint
 
 - [x] Desenvolver o Html
 - [] Dsenvolver o CSS do programa
@@ -48,18 +40,26 @@ $ Aproveite bastante :D
 
 ---
 
-## :construção: Tecnologias
+##  Tecnologias
 
-<p> As  tecnologias aplicadas durante esse desafio foram:
 
-**[Bootstrap](https://getbootstrap.com/)**
-**[JavaScript](https://https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**
-</p>
+As  tecnologias aplicadas durante esse desafio foram:
+
+<br>
+
+
+ - <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon /master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
+
+ - <a href="https://www.w3.org /html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width= "40" altura="40"/> </a> 
+
+ - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZqEmU957Lu04cLXjNuloYZRYIotlIDNYybg&usqp=CAU" alt="js" width= "30" altura="30"/> </a>
+
+ - <a href="https://getbootstrap.com/" target="_blank"> <img src="https://startbootstrap.com/assets/img/brand-logos/bootstrap-4.svg" alt="bootstrap" width= "30" altura="30"/> </a>
 
 
 --- 
 
-##  :mulher: :coração verde: Autora
+##  Autora
 
 <p> Débora Franquêta</p> 
 <p>debora_franqueta@hotmail.com</p>
