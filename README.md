@@ -1,25 +1,44 @@
 # Desafio Simbiose #
  
+<p> Esse projeto foi desenvolvido durante minha jornada na Simbiose, foi nos proposto esse desafio.
 
- <p aling="center">Esse projeto foi criado durante o meu inicio de jornada na Simbiose.</p>
+<b> 
 
-----
+
+![](https://i.imgur.com/waxVImv.png)
+
+
+<b>
+
 
 # Sobre o projeto
 
 <p> A proposta foi desenvolver um CRUD, ou seja um programa que consumisse uma API.</p>
 
 
-----
+
+<b> 
+
+
+
+
+![](https://i.imgur.com/waxVImv.png)
+
 
 # Sprint
 
 - [x] Desenvolver o Html
-- [] Dsenvolver o CSS do programa
-- [] JavaScript
-- [] Consumir API
+- [x] Desenvolver o CSS do programa
+- [x] JavaScript
+- [x] Consumir API
 
-----
+
+<b> 
+
+
+![](https://i.imgur.com/waxVImv.png)
+
+
 
 ##  💻 Instalação
 
@@ -38,7 +57,12 @@ $ Aproveite bastante :D
 ```
 </p>
 
----
+<b> 
+
+
+![](https://i.imgur.com/waxVImv.png)
+
+
 
 ##  Tecnologias
 
@@ -56,12 +80,20 @@ As  tecnologias aplicadas durante esse desafio foram:
 
  - <a href="https://getbootstrap.com/" target="_blank"> <img src="https://startbootstrap.com/assets/img/brand-logos/bootstrap-4.svg" alt="bootstrap" width= "30" altura="30"/> </a>
 
+<b> 
 
---- 
+
+![](https://i.imgur.com/waxVImv.png)
+
+
 
 ##  Autora
 
-<p> Débora Franquêta</p> 
-<p>debora_franqueta@hotmail.com</p>
+<div aligin="center">
+<p>
+<sup>
+ Débora Franquêta   
+
+debora_franqueta@hotmail.com
 
 [@deborafranqueta](https://github.com/deborafranqueta)
