@@ -18,10 +18,10 @@ function adicionar(){
   display.innerHTML += `    
     <div class="container">
   <div class="row">
-    <div class="col-sm">One of three columns</div>
+    <div class="col-sm">Nome</div>
     <div class="col-sm">${array[x]}</div>
     <div class="col-sm">
-      <button onclick="editar()" id="editbutton">Editar</button>
+      <button onclick="editar(${array[x]})" id="editbutton" data-bs-toggle="modal" data-bs-target="#idEdit">Editar</button>
       <button onclick="excluir('${array[x]}')" id="deletebutton">Excluir</button>
     </div>
   </div>
@@ -41,15 +41,18 @@ function excluir(produto){
 
   display.innerHTML=''
 
-  for  (let i=0; i<array.length; i++) {
+  x = x-1
+
+
+  for  (let i=0; i<array.length; i++) { 
 
     display.innerHTML += `    
     <div class="container">
   <div class="row">
-    <div class="col-sm">One of three columns</div>
+    <div class="col-sm">Nome</div>
     <div class="col-sm">${array[i]}</div>
     <div class="col-sm">
-      <button onclick="editar()" id="editbutton">Editar</button>
+      <button onclick="editar(idEdit)" id="editbutton" data-bs-toggle="modal" data-bs-target="#idEdit" >Editar</button>
       <button onclick="excluir('${array[i]}')" id="deletebutton">Excluir</button>
     </div>
   </div>
@@ -58,8 +61,37 @@ function excluir(produto){
 
   }
 
+}
 
-console.log(indice);
+function editar(teste) {
+
+  var  modal = document.getElementById("idEdit");
+
+  modal.classList.remove("fade")
+
+  modal.classList.add("d-flex")
+
+
+
+  console.log(teste)
+
+
 
 }
+
+function fechar(){
+
+  var  modal = document.getElementById("idEdit");
+
+  modal.classList.remove("d-flex")
+
+  modal.classList.add("fade")
+
+}
+
+//function salvar(){
+
+  
+
+
 

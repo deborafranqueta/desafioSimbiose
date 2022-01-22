@@ -8,12 +8,16 @@
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css"/>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+      <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4938/4938957.png" type="image/x-icon">
+      <link rel="stylesheet" href="style.css"/>
 
 
     <title>Lista de Contatos</title>
   </head>
 
+<!-- Adcionar -->
 
   <body>
     <section class="card">
@@ -25,10 +29,49 @@
         </div>
       </div>
     </section>
+
+    <!-- Lista de produtos -->
+
     <section class="itemlista">
     </section>
 
+<!-- Editar -->
+
+    <div class="modal fade" id="idEdit" tabindex="-1" aria-labelledby="edit" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="edit">Alterar nome</h5>
+          </div>
+          <div class="modal-body">
+            Novo produto
+          </div>
+          <div class="modal-footer">
+            <button  onclick="fechar()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button onclick="salvar()" type="button" class="btn btn-primary">Salvar Alterações</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<!-- Rodapé -->
+
+
+<footer id="meuFooter">
+  <div class="container">
+  </div>
+  <div class="footer-social">
+      <a href="https://github.com/deborafranqueta"  target="_blank" class="social-icons"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/deborafranqueta/"  target="_blank" class="social-icons"><i class="fa fa-linkedin" aria-hidden="true"></i><a>
+      <a href="https://malito:debora_franqueta@hotmail.com" class="social-icons"><i   target="_blank" class="fa fa-envelope" aria-hidden="true"  ></i></a>
+      <p class="footer-copyright">© 2022 Copyright - Débora Franquêta</p>
+  </div>
+</footer>
+
+<!-- JS-->
+
     <script src="app.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   </body>
 </html>
