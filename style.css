@@ -66,10 +66,27 @@ h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding:15px;
   border-radius: 12px;
-  border: 1px solid #191818;
+  border: 1px solid #e61ebb;
   outline: none;
   font-size: 20px;
   color: #000000;
+}
+
+.modal-title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+
+}
+
+input{
+  width: 470px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:15px;
+  border-radius: 15px;
+  border: 1px solid #e61ebb;
+  outline: none;
+  font-size: 20px;
 }
 
 .row{
