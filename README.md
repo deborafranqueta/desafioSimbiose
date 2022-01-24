@@ -1,6 +1,6 @@
 # Desafio Simbiose #
  
-<p> Esse projeto foi desenvolvido durante minha jornada na Simbiose, foi nos proposto esse desafio.
+<p> Esse projeto foi desenvolvido durante minha jornada na Simbiose, foi proposto um desafio, fazer um CRUD funcionar.
 
 <b> 
 
