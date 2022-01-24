@@ -2,6 +2,7 @@
 body{
   flex-direction: column;
   height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -9,12 +10,13 @@ h1{
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: aliceblue;
-  margin-top: 15 px;
-  margin-bottom: 35px;
+  margin-top: 25px;
+  margin-bottom: 55px;
  }
  
  button {
    padding: 1.3em 3em;
+   margin-left: 20px;
    font-size: 12px;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -44,14 +46,14 @@ h1{
 
   margin: 0 auto;
   width: 100%;
-  max-width: 700px;
+  max-width: 800px;
   margin-top: 100px;
-  margin-bottom:50px;
+  margin-bottom: 100px;
   padding: 55px;
   border-radius: 26px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background:#414040;
-  box-shadow:  40px -40px 70px #807878, -5px 10px 30px #e61ebb;
+  box-shadow:  40px -40px 70px #807878, -45px 40px 70px #e61ebb;
 }
 
 .topo{
@@ -61,7 +63,7 @@ h1{
 }
 
 .topo input{
-  width: 350px;
+  width: 400px;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding:15px;
@@ -162,4 +164,3 @@ input{
 p {
   margin-top: 30px;
 }
-

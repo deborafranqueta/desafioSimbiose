@@ -1,17 +1,13 @@
-/*var nome = prompt("Olá, Qual o seu nome?");
-alert("Seja bem-vindo ao meu programa,"  + nome );*/
+//Programa //
 
+var nome = prompt("Olá, Qual o seu nome?");
+alert("Seja bem-vindo ao meu programa,"  + nome );
 
-
-let url = `https://randomuser.me/api/`
-
-fetch(url)
-  .then(response => response.json())
-  .then(api => {
-
-  });
 
 var array = []
+var pessoas = [{}]
+pessoas.pop()
+apiConsumo()
 var x = 0;
 var indicenegativo = -1
 console.log(indicenegativo)
@@ -26,15 +22,17 @@ function adicionar(){
   if(inputText == ""){
 
     return;
-  }else{
+  }
 
     array.push(inputText)
-  }
+
+    
+apiConsumo()
 
   display.innerHTML += `    
     <div class="container" id="${x}">
-  <div class="row">
-    <div class="col-sm">Nome</div>
+    <div class="row">
+    <div class="col-sm">${pessoas[x].name} <br> ${pessoas[x].email}</div>
     <div class="col-sm">${array[x]}</div>
     <div class="col-sm">
       <button onclick="editar(${x})" id="editbutton" data-bs-toggle="modal" data-bs-target="#idEdit">Editar</button>
@@ -45,6 +43,8 @@ function adicionar(){
 
 x++
 
+document.querySelector("#inputNome").value = '';
+
 }
 
 function excluir(produto){
@@ -52,28 +52,32 @@ function excluir(produto){
   let indice = array.indexOf(produto)
 
   array.splice(indice, 1)
+  pessoas.splice(indice, 1)
 
   let display = document.querySelector(".itemlista")
 
-  display.innerHTML=''
+  display.innerHTML='';
 
-  x = x-1
+  x = 0
 
 
-  for  (let i=0; i<array.length; i++) { 
+ while( x < array.length){
+ 
 
     display.innerHTML += `    
-    <div class="container">
-  <div class="row">
-    <div class="col-sm">Nome</div>
-    <div class="col-sm">${array[i]}</div>
+    <div class="container" id="${x}">
+    <div class="row">
+    <div class="col-sm">${pessoas[x].name} <br> ${pessoas[x].email}</div>
+    <div class="col-sm">${array[x]}</div>
     <div class="col-sm">
-      <button onclick="editar('${array[i]}')" id="editbutton" data-bs-toggle="modal" data-bs-target="#idEdit" >Editar</button>
-      <button onclick="excluir('${array[i]}')" id="deletebutton">Excluir</button>
+      <button onclick="editar(${x})" id="editbutton" data-bs-toggle="modal" data-bs-target="#idEdit">Editar</button>
+      <button onclick="excluir('${array[x]}')" id="deletebutton">Excluir</button>
     </div>
   </div>
 </div> `
 
+
+x++
 
   }
 
@@ -93,7 +97,6 @@ function editar(teste) {
 
   indicenegativo = teste
 
-  console.log(indicenegativo)
 
 }
 
@@ -113,7 +116,7 @@ function salvar(){
 
   if(indicenegativo > -1){
     
-    array[indicenegativo] = edit
+    array[indicenegativo] = produto
   }
 
   x = 0
@@ -127,7 +130,7 @@ function salvar(){
     display.innerHTML += `    
     <div class="container" id="${x}">
   <div class="row">
-    <div class="col-sm">Nome</div>
+    <div class="col-sm">${pessoas[x].name} <br> ${pessoas[x].email}</div>
     <div class="col-sm">${array[x]}</div>
     <div class="col-sm">
       <button onclick="editar(${x})" id="editbutton" data-bs-toggle="modal" data-bs-target="#idEdit">Editar</button>
@@ -141,10 +144,35 @@ x++
 
 indicenegativo = -1
 
-console.log(array)
+alert('Alteração realizada com sucesso!')
 
 }
 
 
+function limpar(){
 
+  document.getElementById("itemlista").reset();
+  
+
+}
+
+//API//
+
+function apiConsumo() {
+  fetch('https://randomuser.me/api/?results=1%27')
+      .then((resp) => resp.json())
+      .then(function (data) {
+          let authors = data.results;
+          return authors.map(function (author) {
+              let name = (author.name.first);
+              let email = (author.email)
+              pessoas.push({ email, name });
+              console.log(pessoas)
+          })
+      })
+      .catch(function (error) {
+          console.log(error);
+      });
+}
+apiConsumo()
 

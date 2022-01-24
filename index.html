@@ -14,7 +14,7 @@
       <link rel="stylesheet" href="style.css"/>
 
 
-    <title>Lista de Contatos</title>
+    <title>Lista de Produtos</title>
   </head>
 
 <!-- Adcionar -->
@@ -22,10 +22,11 @@
   <body>
     <section class="card">
       <div class="conteudo">
-        <h1>Contatos</h1>
+        <h1>Produtos da Lista</h1>
         <div class="topo">
-          <input type="text" id="inputNome" placeholder="Adicione um contato" />
+          <input type="text" id="inputNome" placeholder="Adicione um produto" />
           <button onclick="adicionar()" id="btnAdd">Adicionar</button>
+          <button onclick="limpar()" id="limparCampo">Limpar</button>
         </div>
       </div>
     </section>
@@ -41,7 +42,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="edit">Alterar nome</h5>
+            <h5 class="modal-title">Alterar nome</h5>
           </div>
           <div class="modal-body">
             <input type="text" id="edit">
@@ -61,9 +62,9 @@
   <div class="container">
   </div>
   <div class="footer-social">
-      <a href="https://github.com/deborafranqueta"  target="_blank" class="social-icons"><i class="fa fa-github" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/deborafranqueta/"  target="_blank" class="social-icons"><i class="fa fa-linkedin" aria-hidden="true"></i><a>
-      <a href="https://malito:debora_franqueta@hotmail.com" class="social-icons"><i   target="_blank" class="fa fa-envelope" aria-hidden="true"  ></i></a>
+      <a href="https://github.com/deborafranqueta" target="_blank" class="social-icons"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/deborafranqueta/" target="_blank" class="social-icons"><i class="fa fa-linkedin" aria-hidden="true"></i><a>
+      <a href="https://malito:debora_franqueta@hotmail.com" target="_blank" class="social-icons"><i  class="fa fa-envelope" aria-hidden="true"></i></a>
       <p class="footer-copyright">© 2022 Copyright - Débora Franquêta</p>
   </div>
 </footer>
