@@ -1,7 +1,7 @@
 //Programa //
 
-var nome = prompt("Olá, Qual o seu nome?")
-alert("Seja bem-vindo, " + nome);
+var nome = prompt("Olá, qual o seu nome?")
+alert("Seja bem-vindo(a), " + nome );
 
 
 var array = []
