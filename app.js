@@ -1,7 +1,7 @@
 //Programa //
 
-var nome = prompt("Olá, Qual o seu nome?");
-alert("Seja bem-vindo ao meu programa,"  + nome );
+var nome = prompt("Olá, Qual o seu nome?")
+alert("Seja bem-vindo, " + nome);
 
 
 var array = []
@@ -111,7 +111,7 @@ function fechar(){
 }
 
 function salvar(){
- 
+
   let produto = document.querySelector("#edit").value
 
   if(indicenegativo > -1){
@@ -144,16 +144,19 @@ x++
 
 indicenegativo = -1
 
-alert('Alteração realizada com sucesso!')
+alert("Salvo com sucesso!")
 
 }
 
 
 function limpar(){
 
-  document.getElementById("itemlista").reset();
+  array = []
+  pessoas.splice(0, pessoas.length)
   
+  let display = document.querySelector(".itemlista")
 
+  display.innerHTML = ""
 }
 
 //API//
