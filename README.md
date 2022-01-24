@@ -98,7 +98,7 @@ As  tecnologias aplicadas durante esse desafio foram:
  
  Débora Franquêta!!
  
- ![debora](https://user-images.githubusercontent.com/72817900/150870686-ab278417-a30f-4eee-861e-7d0a61fb7c52.png)
+ ![debora](https://user-images.githubusercontent.com/72817900/150870686-ab278417-a30f-4eee-861e-7d0a61fb7c52.png width="250")
 
 debora_franqueta@hotmail.com
 
