@@ -1,10 +1,14 @@
 # Desafio Simbiose #
 
+<<<<<<< HEAD
 
 
+=======
+![Animação](https://user-images.githubusercontent.com/72817900/150870292-9cbd238c-9090-43bc-81c9-90f56b6e7584.gif)
+>>>>>>> a0bd396f82dc767761bf77c3dcdc1d1c919da163
 
  
-<p> Esse projeto foi desenvolvido durante minha jornada na Simbiose, foi nos proposto esse desafio.
+<p> Esse projeto foi desenvolvido durante minha jornada na Simbiose, foi proposto um desafio, fazer um CRUD funcionar.
 
 <b> 
 
@@ -96,7 +100,9 @@ As  tecnologias aplicadas durante esse desafio foram:
 <div aligin="center">
 <p>
 <sup>
- Débora Franquêta   
+ 
+ Débora Franquêta!!
+
 
 debora_franqueta@hotmail.com
 
