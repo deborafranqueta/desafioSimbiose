@@ -98,5 +98,5 @@ As  tecnologias aplicadas durante esse desafio foram:
  
  <span align ="center">
  
-<div style="width:100%;height:0;padding-bottom:82%;position:relative;"><iframe src="https://giphy.com/embed/MeJgB3yMMwIaHmKD4z" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/2000s-00s-middle-school-MeJgB3yMMwIaHmKD4z">via GIPHY</a></p></div>
+<div>![debora](https://user-images.githubusercontent.com/72817900/150982527-a914e64b-a1c2-429a-a701-3d82c158f171.png" width="250")</div>
  <div aligin="center"> Débora Franquêta </div> </span>
