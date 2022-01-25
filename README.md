@@ -98,5 +98,5 @@ As  tecnologias aplicadas durante esse desafio foram:
  
  <span align ="center">
  
-<div>![debora](https://user-images.githubusercontent.com/72817900/150982527-a914e64b-a1c2-429a-a701-3d82c158f171.png) width="250"</div>
+<div>![debora](https://user-images.githubusercontent.com/72817900/150982527-a914e64b-a1c2-429a-a701-3d82c158f171.png)</div>
  <div aligin="center"> Débora Franquêta </div> </span>
