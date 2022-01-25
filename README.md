@@ -95,14 +95,8 @@ As  tecnologias aplicadas durante esse desafio foram:
 
 
 ##  Autora
-
-<div aligin="center">
-<p>
-<sup>
  
- Débora Franquêta!!
-
-
-debora_franqueta@hotmail.com
-
-[@deborafranqueta](https://github.com/deborafranqueta)
+ <span align ="center">
+ 
+ <iframe src="https://giphy.com/embed/MeJgB3yMMwIaHmKD4z" width="480" height="394" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/2000s-00s-middle-school-MeJgB3yMMwIaHmKD4z">via GIPHY</a></p></div>
+ <div aligin="center"> Débora Franquêta </div> </span>
