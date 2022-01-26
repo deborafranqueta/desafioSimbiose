@@ -1,6 +1,9 @@
 # Desafio Simbiose #
 
 
+<<<<<<< HEAD
+
+
 ![Animação](https://user-images.githubusercontent.com/72817900/150870292-9cbd238c-9090-43bc-81c9-90f56b6e7584.gif)
 
 
@@ -93,14 +96,8 @@ As  tecnologias aplicadas durante esse desafio foram:
 
 
 ##  Autora
-
-<div aligin="center">
-<p>
-<sup>
  
- Débora Franquêta!!
+ <span align ="center">
+ 
 
-
-debora_franqueta@hotmail.com
-
-[@deborafranqueta](https://github.com/deborafranqueta)
+ <div aligin="center"> Débora Franquêta </div> </span>
