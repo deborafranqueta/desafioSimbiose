@@ -1,9 +1,7 @@
 # Desafio Simbiose #
 
 
-
-
-=======![Animação](https://user-images.githubusercontent.com/72817900/150870292-9cbd238c-9090-43bc-81c9-90f56b6e7584.gif)
+![Animação](https://user-images.githubusercontent.com/72817900/150870292-9cbd238c-9090-43bc-81c9-90f56b6e7584.gif)
 
 
  

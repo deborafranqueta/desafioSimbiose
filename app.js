@@ -10,7 +10,6 @@ pessoas.pop()
 apiConsumo()
 var x = 0;
 var indicenegativo = -1
-console.log(indicenegativo)
 
 
 function adicionar(){
@@ -170,12 +169,11 @@ function apiConsumo() {
               let name = (author.name.first);
               let email = (author.email)
               pessoas.push({ email, name });
-              console.log(pessoas)
+
           })
       })
       .catch(function (error) {
-          console.log(error);
       });
 }
-apiConsumo()
+
 
